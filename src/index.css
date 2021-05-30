@@ -1,0 +1,211 @@
+* {
+  font-size: 1rem;
+  font-family: "SF Pro Display";
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h2 {
+  color: #1f1c1c;
+}
+
+.green-container {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: #9aa4b5;
+  background: -moz-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: linear-gradient(45deg, #9aa4b5 0%, #bdc4cf 100%, #d4dae1 100%);
+  overflow: auto;
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 27vh;
+
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.login-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.login-buttons input {
+  margin: 10px;
+}
+
+.login-buttons button {
+  height: 82px;
+}
+.signup-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.signup-buttons input {
+  margin: 10px;
+}
+
+.signup-buttons button {
+  height: 82px;
+}
+
+.sign-in-button:hover {
+  color: rgb(233, 72, 72);
+  background-color: black;
+}
+
+.sign-in-button {
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: rgb(233, 72, 72);
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 50px;
+  min-width: 83.13px;
+  text-align: center;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  border: 2px solid #c9c9c9;
+}
+
+.sign-in-button p {
+  margin: 0px;
+}
+
+/* Image */
+
+.mainpageImg {
+  position: absolute;
+  background: no-repeat;
+  background-image: url(./images/celTemplate.png);
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.app-logo {
+  width: 100px;
+  height: 80px;
+  margin: 15px;
+}
+/* text */
+.mainpageTitle {
+  position: absolute;
+  left: 11%;
+  top: 30%;
+  font-size: 3.5rem;
+}
+.logoName {
+  position: fixed;
+  font-size: 2.5rem;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-left: 120px;
+  padding: 0;
+}
+
+/*  Signin and Register form */
+
+.form-container {
+  color: #000;
+  background: #9aa4b5;
+  background: -moz-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: linear-gradient(45deg, #9aa4b5 0%, #bdc4cf 100%, #d4dae1 100%);
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 450px;
+  height: 500px;
+  border-radius: 40px;
+}
+
+.form {
+  display: inline;
+  margin: 80px;
+  font-weight: 450;
+}
+.form-register {
+  margin: 40px 40px 10px 40px;
+  font-weight: 450;
+}
+.form-username {
+  margin: 40px 10px 0 0;
+}
+.form-username-register {
+  margin: 10px 16px 0 0;
+}
+.form-email {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.form-password {
+  margin: 35px 20px 0 0;
+}
+.form-password-register {
+  margin: 10px 35px 0 0;
+}
+.form-password-register2 {
+  margin: 10px 65px 0 0;
+}
+.to-register {
+  position: absolute;
+  display: flex;
+  margin: -30px;
+  margin-left: 120px;
+}

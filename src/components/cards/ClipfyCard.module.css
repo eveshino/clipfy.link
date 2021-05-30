@@ -1,0 +1,106 @@
+.main {
+  background: #9aa4b5;
+  background: -moz-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #9aa4b5 0%,
+    #bdc4cf 100%,
+    #d4dae1 100%
+  );
+  background: linear-gradient(45deg, #9aa4b5 0%, #bdc4cf 100%, #d4dae1 100%);
+
+  color: white;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  display: block;
+  background-color: #f4f7f8;
+  color: black;
+  height: auto;
+  width: 42vh;
+  position: relative;
+  left: 50%;
+  top: 10%;
+  border-radius: 20px;
+  transform: translateX(-50%);
+  padding-bottom: 10px;
+}
+.picture {
+  box-shadow: 0.5px 0.5px 5px;
+  margin-top: 60px;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 50%;
+}
+.name {
+  font-family: "SF Pro Display";
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 4vh;
+  width: 60%;
+  margin: 0 50px;
+  background-color: #e9ecef;
+}
+.text {
+  font-family: "SF Pro Display";
+  font-size: 1rem;
+  color: black;
+  margin: 10px;
+}
+.minilinks {
+  display: inline;
+}
+.minilogo {
+  margin: 20px 10px 0 10px;
+  width: 30px;
+}
+
+.links {
+  margin: 30px 40px 10px 40px;
+}
+.link {
+  display: flex;
+  cursor: pointer;
+  color: white;
+  font-size: 0.3rem;
+  margin: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: #364bf3;
+  border-radius: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  border: none;
+}
+.link a {
+  font-family: "SF Pro Display";
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  margin: 0 15px;
+  width: 35px;
+  border-radius: 20px;
+}
+.clipfy {
+  width: 30px;
+}
