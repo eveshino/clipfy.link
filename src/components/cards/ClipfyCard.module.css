@@ -1,19 +1,5 @@
 .main {
-  background: #9aa4b5;
-  background: -moz-linear-gradient(
-    45deg,
-    #9aa4b5 0%,
-    #bdc4cf 100%,
-    #d4dae1 100%
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    #9aa4b5 0%,
-    #bdc4cf 100%,
-    #d4dae1 100%
-  );
-  background: linear-gradient(45deg, #9aa4b5 0%, #bdc4cf 100%, #d4dae1 100%);
-
+  background-image: url(../../images/sky.jpeg);
   color: white;
   height: 100vh;
   width: 100%;
@@ -22,7 +8,7 @@
 }
 .card {
   display: block;
-  background-color: #f4f7f8;
+  background-color: #b9e1ee;
   color: black;
   height: auto;
   width: 42vh;
@@ -44,7 +30,7 @@
   font-family: "SF Pro Display";
   margin-top: 20px;
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 .desc {
   display: flex;
@@ -72,7 +58,7 @@
 }
 
 .links {
-  margin: 30px 40px 10px 40px;
+  margin: 20px 40px 10px 40px;
 }
 .link {
   display: flex;
