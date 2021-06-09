@@ -1,0 +1,21 @@
+.links {
+  margin: 20px 40px 10px 40px;
+}
+
+.text {
+  font-family: "SF Pro Display";
+  font-size: 1rem;
+  color: #000000;
+  margin: 10px;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 4vh;
+  width: 60%;
+  margin: 0 50px;
+  background-color: #ffffff;
+}
