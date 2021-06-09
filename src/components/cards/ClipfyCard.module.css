@@ -10,10 +10,10 @@
 }
 .card {
   display: block;
-  background-color: #ebfaff;
+  background-color: #f1fafd;
   color: black;
 
-  min-height: 700px;
+  min-height: 650px;
   width: 42vh;
   position: relative;
   left: 50%;
@@ -40,4 +40,23 @@
 .clipfy {
   margin-top: 20px;
   width: 30px;
+}
+
+.text {
+  font-family: "SF Pro Display";
+  font-size: 1rem;
+  color: #000000;
+  margin: 10px;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 4vh;
+  width: 60%;
+
+  margin: 15px auto;
+  background-color: #ffffff;
 }

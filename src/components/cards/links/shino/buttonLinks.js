@@ -1,6 +1,6 @@
 import classes from "./buttonLinks.module.css";
 
-import { Button } from "./buttons/button";
+import { Button } from "../buttons/button";
 
 export function ButtonLinks() {
   return (

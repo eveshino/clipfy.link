@@ -5,7 +5,7 @@ import self from "../../images/linkpic.jpg";
 function Links() {
   return (
     <div>
-      <ClipfyCard name="@shino" img={self} />
+      <ClipfyCard name="@shino" img={self} description="Developer" />
     </div>
   );
 }
