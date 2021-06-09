@@ -15,8 +15,32 @@
 
     <title>Clipfy</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCAy6NBT5J3sTaobEDECB1zAv_DjO1TUko",
+        authDomain: "clipfy-7b011.firebaseapp.com",
+        projectId: "clipfy-7b011",
+        storageBucket: "clipfy-7b011.appspot.com",
+        messagingSenderId: "996655635042",
+        appId: "1:996655635042:web:61fe489e0b4859094e0f3b",
+        measurementId: "G-ECSVH813DM",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
