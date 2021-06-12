@@ -1,11 +1,11 @@
 import ClipfyCard from "../cards/ClipfyCard";
 
-import self from "../../images/linkpic.jpg";
+import aiyu from "../../images/aiyu.jpg";
 
 function Links() {
   return (
     <div>
-      <ClipfyCard name="@shino" img={self} description="Developer" />
+      <ClipfyCard name="アイユー（株" img={aiyu} description="愛知県" />
     </div>
   );
 }

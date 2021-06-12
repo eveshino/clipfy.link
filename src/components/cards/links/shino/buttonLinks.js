@@ -7,19 +7,19 @@ export function ButtonLinks() {
     <div className={classes.links}>
       <Button
         src={"/icons/youtube.png  "}
-        href={"https://www.youtube.com/channel/UC9HSbvbhFAXV8zWCcuOHaTw"}
-        title="Youtube"
+        href={"https://www.aiyu.co.jp/about/"}
+        title="足場屋"
       />
       <Button
         src={"/icons/github.png"}
-        href={"https://github.com/eveshino"}
-        title="Github"
+        href={"http://aiyu-realestate.com/"}
+        title="不動屋"
       />
-      <Button
+      {/* <Button
         src={"/icons/linkedin.png"}
         href={"https://www.linkedin.com/in/everson-shinohara-ab7226206/"}
         title="Linkedin"
-      />
+      /> */}
     </div>
   );
 }

@@ -1,3 +1,9 @@
 .links {
   margin: 20px 40px 10px 40px;
 }
+.text {
+  display: block;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
