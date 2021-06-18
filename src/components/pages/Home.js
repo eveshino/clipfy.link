@@ -13,7 +13,7 @@ const Home = () => {
         誰にでも共有 ログイン
       </p>
       <div className="buttons">
-        <Link to="/aiyu" className="sign-in-button">
+        <Link to="/aiyu1002" className="sign-in-button">
           <p>Aiyu</p>
         </Link>
         {/* <Link to="/Register" className="sign-in-button">
