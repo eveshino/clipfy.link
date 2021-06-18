@@ -62,3 +62,9 @@
   margin: 15px auto;
   background-color: #ffffff;
 }
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin-top: 40px;
+  }
+}
