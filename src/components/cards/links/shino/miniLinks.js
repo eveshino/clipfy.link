@@ -6,7 +6,7 @@ export function MiniLinks(props) {
   return (
     <div className={classes.links}>
       <Links
-        href={"https://line.me/R/ti/p/eveshino13"}
+        href={"https://line.me/R/ti/p/aiyutaniguchi"}
         src={"/icons/fbBlack.png"}
       />
       <Links
