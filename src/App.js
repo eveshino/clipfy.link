@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Profile}></Route>
+        <Route path="/aiyu" component={Profile}></Route>
       </Switch>
     </Router>
   );
