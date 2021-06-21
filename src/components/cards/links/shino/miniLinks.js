@@ -6,7 +6,7 @@ export function MiniLinks(props) {
   return (
     <div className={classes.links}>
       <Links
-        href={"https://line.me/R/ti/p/aiyutaniguchi"}
+        href={"https://www.facebook.com/aiyu2021"}
         src={"/icons/fbBlack.png"}
       />
       <Links
@@ -14,13 +14,12 @@ export function MiniLinks(props) {
         src={"/icons/instaBlack.png"}
       />
       <Links
-        href={"https://www.facebook.com/aiyu2021/"}
+        href={"http://line.me/ti/p/~aiyutaniguchi"}
         src={"/icons/line.png"}
       />
       <p className={classes.text}>
         建築やリフォームを中⼼に、 ⾜場を組む会社です。
       </p>
-      {/* <Links href={"https://twitter.com/EveShino"} src={"/icons/twitter.png"} /> */}
     </div>
   );
 }
