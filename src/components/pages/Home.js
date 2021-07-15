@@ -16,6 +16,9 @@ const Home = () => {
         <Link to="/aiyu1002" className="sign-in-button">
           <p>Aiyu</p>
         </Link>
+        <Link to="/aiyunami1002" className="sign-in-button">
+          <p>Aiyunami</p>
+        </Link>
         {/* <Link to="/Register" className="sign-in-button">
           <p>新規会員登録</p>
         </Link> */}

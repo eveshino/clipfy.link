@@ -1,9 +1,9 @@
 import classes from "./ClipfyCard.module.css";
 
-import logo from "../../images/logoBlack.png";
+import logo from "../../../images/logoBlack.png";
 
-import { MiniLinks } from "./links/shino/miniLinks";
-import { ButtonLinks } from "./links/shino/buttonLinks";
+import { MiniLinks } from "../../cards/links/clipfy/miniLinks";
+import { ButtonLinks } from "../../cards/links/clipfy/buttonLinks";
 
 function ClipfyCard(props) {
   return (
@@ -14,7 +14,7 @@ function ClipfyCard(props) {
         <div className={classes.desc}>
           <p className={classes.text}>{props.description}</p>
         </div>
-        <MiniLinks />
+        <MiniLinks line="http://line.me/ti/p/~aiyutaniguchi" />
         <ButtonLinks />
       </div>
       <img className={classes.clipfy} src={logo} alt="logo" />

@@ -13,10 +13,7 @@ export function MiniLinks(props) {
         href={"https://www.instagram.com/aiyu.0808/"}
         src={"/icons/instaBlack.png"}
       />
-      <Links
-        href={"http://line.me/ti/p/~aiyutaniguchi"}
-        src={"/icons/line.png"}
-      />
+      <Links href={props.line} src={"/icons/line.png"} />
       <p className={classes.text}>
         建築やリフォームを中⼼に、 ⾜場を組む会社です。
       </p>

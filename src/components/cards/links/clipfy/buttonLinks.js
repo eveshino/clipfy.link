@@ -13,7 +13,7 @@ export function ButtonLinks() {
       <Button
         src={"/icons/github.png"}
         href={"http://aiyu-realestate.com/"}
-        title="不動屋"
+        title="不動産"
       />
       {/* <Button
         src={"/icons/linkedin.png"}

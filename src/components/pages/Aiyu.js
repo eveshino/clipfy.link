@@ -1,4 +1,4 @@
-import ClipfyCard from "../cards/ClipfyCard";
+import ClipfyCard from "../cards/aiyu/ClipfyCard";
 
 import aiyu from "../../images/aiyu.jpg";
 
