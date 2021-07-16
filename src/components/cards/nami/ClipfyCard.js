@@ -3,7 +3,7 @@ import classes from "./ClipfyCard.module.css";
 import logo from "../../../images/logoBlack.png";
 
 import { MiniLinks } from "../../cards/links/clipfy/miniLinks";
-import { ButtonLinks } from "../../cards/links/clipfy/buttonLinks";
+import { Button } from "../links/buttons/button";
 
 function ClipfyCard(props) {
   return (
@@ -15,7 +15,13 @@ function ClipfyCard(props) {
           <p className={classes.text}>{props.description}</p>
         </div>
         <MiniLinks line="http://line.me/ti/p/~aiyunami" />
-        <ButtonLinks />
+        <div className={classes.links}>
+          <Button
+            src={"/icons/youtube.png  "}
+            href={"https://www.aiyu.co.jp/about/"}
+            title="足場屋"
+          />
+        </div>
       </div>
       <img className={classes.clipfy} src={logo} alt="logo" />
     </div>
