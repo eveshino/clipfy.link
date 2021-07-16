@@ -18,8 +18,8 @@ function ClipfyCard(props) {
         <div className={classes.links}>
           <Button
             src={"/icons/youtube.png  "}
-            href={"https://www.aiyu.co.jp/about/"}
-            title="足場屋"
+            href={"http://aiyu-realestate.com/"}
+            title="不動産"
           />
         </div>
       </div>
